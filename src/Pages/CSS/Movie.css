@@ -1,0 +1,29 @@
+.movie-container {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr)); /* Default 4 columns */
+	gap: 2rem;
+	padding: 2rem;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+@media (max-width: 1200px) {
+	.movie-container {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+		margin: 0;
+	}
+}
+
+@media (max-width: 900px) {
+	.movie-container {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		margin: 0;
+	}
+}
+
+@media (max-width: 600px) {
+	.movie-container {
+		grid-template-columns: 1fr;
+		margin: 0;
+	}
+}
