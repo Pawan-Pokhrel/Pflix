@@ -11,8 +11,7 @@ const Footer = () => {
 						<span className="text-red-600">P</span>flix
 					</h2>
 					<p className="footer-desc">
-						Your one-stop platform for premium movies, series, and
-						more.
+						Your one-stop platform for premium movies, series, and more.
 					</p>
 				</div>
 				<div className="footer-links">
@@ -70,7 +69,7 @@ const Footer = () => {
 							<BsInstagram />
 						</NavLink>
 						<NavLink
-							to="https://mail.google.com/mail/u/0/#inbox?compose=CllgCHrgDCMkQXZVGvZpNHpQpbJqzThWJWQkrrTxrWQCBKqndbFQxFwPQlBLxtvSZdCkKQhhGDq"
+							to="https://mail.google.com/mail/u/1/#inbox?compose=GTvVlcSMTFPdDfqMDNFskTMKwWfbcqcggRTBwwxrmgzBlqKgxLlmNwWgnrVRZQqXrBKfdLDXrPTlc"
 							className="social-link"
 							target="_blank"
 						>
